@@ -137,11 +137,11 @@ body { background: #fff; overflow-x: hidden; font-family: "Poppins", sans-serif;
 .fTema2 { color:var(--fTema2); }
 .fTema3 { color:var(--fTema3); }
 .fTema4 { color:var(--fTema4); }
-.fTitulo { font-size: 3em; font-weight: 700; color: #181818;}
-.fSubtiulo { font-size: 1.8em; font-weight: 300; color: #6d6d6d;}
-.fDescricao {font-size: 1.2em; font-weight: 400; color: #5a5e5f; line-height: 1.6;}
+.fTitulo { font-size: 3em; font-weight: 700; color: #181818; text-shadow: 1px 1px 1px #18181886 ;}
+.fSubtitulo { font-size: 1.8em; font-weight: 300; color: #6d6d6d;}
+.fDescricao {font-size: 1.2em; font-weight: 400; color: #5a5e5f; line-height: 1.6; width: 80%;}
 
-.bbCinza { border-bottom: 1px solid #d9d9d9;}
+.bbCinza { border-bottom: 1px solid #d9d9d9; }
 
 /* Tamanho */
 .lhn { line-height:normal; }
@@ -256,7 +256,7 @@ a.lNeutro:link, a.lNeutro:visited, a.lNeutro:active, a.lNeutro:hover  { color:in
 
 /* BOTÃO PADRAO E WHATSPP */
 .botaoPadrao { display: inline-flex; align-items: center; justify-content: center; text-decoration: none; transition: background-color 0.3s ease, color 0.3s ease; }
-.botaoPadraoWhatsapp { padding: 6px 16px; background-color: #089c4c; border-radius: var(--border-radius); font-size: 1.2em; color: #fff; border: 1px solid #cacaca; }
+.botaoPadraoWhatsapp { padding: 6px 16px; background-color: var(--fTema2); border-radius: var(--border-radius); font-size: 1.2em; color: #fff; border: 1px solid #cacaca; }
 .botaoPadraoWhatsapp i { margin-left: 7px; }
 .botaoPadraoWhatsapp:hover { background-color: var(--fTema); color: #ffff;}
 
