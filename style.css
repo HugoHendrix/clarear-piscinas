@@ -16,3 +16,14 @@
 .destaque-img { margin-bottom: 15px; color: var(--fTema2); }
 .destaque-titulo { margin-bottom: 10px; font-size: 1.5em; font-weight: 600; color: var(--fTema2); }
 .destaque-descricao { margin-bottom: 15px; font-size: 1.2em; font-weight: 300; color: #5f5f5f; }
+
+
+.rodape-titulo { margin-bottom: 20px; font-size: 2.5em; font-weight: 600; color: #fff; }
+.rodape-descricao { font-size: 1em; color: #ccc; }
+.rodape-contatos li, .rodape-redes-sociais li { margin-bottom: 10px; color: #ccc; }
+.rodape-contatos i, .rodape-redes-sociais i { margin-right: 10px; }
+.rodape-redes-sociais a { color: #ccc; text-decoration: none; }
+
+.rodape-redes-sociais a:hover { color: #fff; }
+.rodape-copyright { margin-top: 20px;color: #aaa;
+}
