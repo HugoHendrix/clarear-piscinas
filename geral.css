@@ -137,6 +137,9 @@ body { background: #fff; overflow-x: hidden; font-family: "Poppins", sans-serif;
 .fTema2 { color:var(--fTema2); }
 .fTema3 { color:var(--fTema3); }
 .fTema4 { color:var(--fTema4); }
+.fTitulo { font-size: 3em; font-weight: 700; color: #181818;}
+.fSubtiulo { font-size: 1.8em; font-weight: 300; color: #6d6d6d;}
+.fDescricao {font-size: 1.2em; font-weight: 400; color: #5a5e5f; line-height: 1.6;}
 
 .bbCinza { border-bottom: 1px solid #d9d9d9;}
 
@@ -189,6 +192,7 @@ body { background: #fff; overflow-x: hidden; font-family: "Poppins", sans-serif;
 .bgBranco2 { background:#F7F7F7; }
 .bgCinza { background: #F8FAF9;}
 .bgCinzaFundo { background: #dbdde1; }
+.bgTema {background-color: #0099ff; }
 
 
 /* Centralizar */
@@ -258,11 +262,7 @@ a.lNeutro:link, a.lNeutro:visited, a.lNeutro:active, a.lNeutro:hover  { color:in
 
 .z-index2 { z-index: 2; }
 
-/* Classes Especificas Site */
-
-
-
-
+/* MEDIA QUERIES */
 
 /* 
    Dispositivos mobile muito pequenos (ex: smartphones antigos, telas menores) 
@@ -293,6 +293,8 @@ a.lNeutro:link, a.lNeutro:visited, a.lNeutro:active, a.lNeutro:hover  { color:in
      Estes dispositivos incluem tablets pequenos e alguns phablets.
   */
   @media (min-width: 481px) and (max-width: 767px) {
+.menuDesktop, .menuDesktopTopo { display: none; }
+.menuMobileContainer { display: block; }
     
   }
   
