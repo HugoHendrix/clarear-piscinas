@@ -264,19 +264,18 @@ a.lNeutro:link, a.lNeutro:visited, a.lNeutro:active, a.lNeutro:hover  { color:in
 
 /* MEDIA QUERIES */
 
-/* 
-   Dispositivos mobile muito pequenos (ex: smartphones antigos, telas menores) 
-   Poucos dispositivos modernos têm essa resolução, então use com moderação.
-*/
-@media (max-width: 300px) {
-    
-  }
   
   /* 
      Dispositivos mobile pequenos 
      Ideal para a maioria dos smartphones com telas menores (modelos compactos).
   */
-  @media (max-width: 380px) {
+ @media (max-width: 380px) {
+.menuDesktop, .menuDesktopTopo { display: none; }
+.menuMobileContainer { display: block; }
+.fSubtitulo { font-size: 1.35em; }
+.fTitulo { font-size: 2em; }
+
+    
     
   }
   
@@ -285,7 +284,11 @@ a.lNeutro:link, a.lNeutro:visited, a.lNeutro:active, a.lNeutro:hover  { color:in
      Este intervalo cobre a maioria dos smartphones padrão, como iPhones e Androids.
   */
   @media (min-width: 381px) and (max-width: 480px) {
-    
+.menuDesktop, .menuDesktopTopo { display: none; }
+.menuMobileContainer { display: block; }
+.fSubtitulo { font-size: 1.35em; }
+.fTitulo { font-size: 2em; }
+
   }
   
   /* 
@@ -303,6 +306,8 @@ a.lNeutro:link, a.lNeutro:visited, a.lNeutro:active, a.lNeutro:hover  { color:in
      Inclui tablets maiores, como iPads em modo paisagem e dispositivos híbridos.
   */
   @media (min-width: 768px) and (max-width: 991px) {
+   .menuDesktop, .menuDesktopTopo { display: none; }
+.menuMobileContainer { display: block; }
    
   }
   
@@ -311,6 +316,8 @@ a.lNeutro:link, a.lNeutro:visited, a.lNeutro:active, a.lNeutro:hover  { color:in
      Ideal para telas de laptops ou desktops menores.
   */
   @media (min-width: 992px) and (max-width: 1199px) {
+   .menuDesktop, .menuDesktopTopo { display: none; }
+   .menuMobileContainer { display: block; }
     
   }
   
