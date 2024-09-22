@@ -243,12 +243,12 @@ a.lRodape:hover { color: var(--fTema2) }
 a.lNeutro:link, a.lNeutro:visited, a.lNeutro:active, a.lNeutro:hover  { color:inherit; text-decoration:none; }
 
 /* BOTÃO FIXO WHATSAPP */
-.whatsBotaoRodape {width: 70px;    background: #089c4c;    min-width: 50px;    display: block;    position: fixed;    right: 20px;    bottom: 50px;    z-index: 999;    border-radius: 50%;    overflow: hidden; }
+.whatsBotaoRodape {width: 70px;    background: var(--fTema2);    min-width: 50px;    display: block;    position: fixed;    right: 20px;    bottom: 70px;    z-index: 999;    border-radius: 50%;    overflow: hidden; }
 .whatsBotaoRodape a {padding-bottom: 100%;display: block;}
 .whatsBotaoRodape svg { width: 50%; fill: #fff; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); }
 
 /* FAIXA RODAPE WHATSAPP */
-.whatsAppRodape { position: fixed; bottom: 0; left: 0; width: 100%; background: #089c4c; color: #fff; text-align: center; padding: 12px 0; z-index: 9999; }
+.whatsAppRodape { position: fixed; bottom: 0; left: 0; width: 100%; background: var(--fTema2); color: #fff; text-align: center; padding: 12px 0; z-index: 9999; }
 .whatsAppRodape p { margin: 0; }
 .whatsAppRodape a { display: block; text-decoration: none; color: #fff; }
 .whatsAppRodape a:hover { color: #cecece; }
