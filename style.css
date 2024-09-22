@@ -17,7 +17,23 @@
 .destaque-titulo { margin-bottom: 10px; font-size: 1.5em; font-weight: 600; color: var(--fTema2); }
 .destaque-descricao { margin-bottom: 15px; font-size: 1.2em; font-weight: 300; color: #5f5f5f; }
 
-.rodape-bg { background-color: #7fdbff; background-image: url("https://www.transparenttextures.com/patterns/batthern.png");}
+.galeria-item {
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.galeria-item img {
+    width: 100%;
+    height: auto;
+}
+
+.galeria-item:hover {
+    transform: scale(1.05);
+}
+
+.rodape-img { max-width: 280px; }
+.rodape-bg { background-color: #467181; background-image: url("https://www.transparenttextures.com/patterns/batthern.png");}
 .rodape-titulo { margin-bottom: 20px; font-size: 2.5em; font-weight: 600; color: #fff; }
 .rodape-descricao { font-size: 1em; color: #ccc; }
 .rodape-contatos li, .rodape-redes-sociais li { margin-bottom: 10px; color: #ccc; }
@@ -25,7 +41,8 @@
 .rodape-redes-sociais a { color: #ccc; text-decoration: none; }
 
 .rodape-redes-sociais a:hover { color: #fff; }
-.rodape-copyright { margin-top: 20px;color: #aaa;
-}
+.rodape-copyright { margin-top: 20px; color: #aaa;} 
 
-.direito { color: #ccc;}
+body::-webkit-scrollbar { width: 10px; }
+body::-webkit-scrollbar-track { background: var(--fTema);  }
+body::-webkit-scrollbar-thumb { background-color: var(--fTema2);    border-radius: 20px; border: 3px solid rgb(0, 204, 255); }

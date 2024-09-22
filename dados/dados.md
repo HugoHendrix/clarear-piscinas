@@ -1,3 +1,19 @@
+# Dados
+1799771-7693
+
+https://www.instagram.com/marcelopiscinas24/
+
+https://w.app/3BDfwk
+
+```HTML
+<a href="https://wa.me/5517997717693?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20de%20limpeza%20e%20manutenção%20de%20piscinas%20da%20Clarear%20Piscinas." target="_blank" class="botaoPadrao botaoPadraoWhatsapp">
+    <i class="fa fa-whatsapp"></i> Fale Conosco no WhatsApp
+</a>
+```
+
+title="Na Clarear Piscinas, oferecemos soluções completas e personalizadas que mantêm sua piscina cristalina e segura o ano todo."
+
+
 ## Nome sugerido: Clarear Piscinas
 
 Esse nome é fácil de lembrar, tem relação direta com o serviço, e usa um termo comum em buscas ("clarear", associado a limpeza) além de "piscinas", o que é relevante para SEO. 

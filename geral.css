@@ -192,7 +192,7 @@ body { background: #fff; overflow-x: hidden; font-family: "Poppins", sans-serif;
 .bgBranco2 { background:#F7F7F7; }
 .bgCinza { background: #F8FAF9;}
 .bgCinzaFundo { background: #dbdde1; }
-.bgTema {background-color: #0099ff; }
+.bgTema {background-color: #5a87a5; }
 
 
 /* Centralizar */
@@ -219,7 +219,7 @@ body { background: #fff; overflow-x: hidden; font-family: "Poppins", sans-serif;
 .menuFlex ul .menuDropdown:hover .menuDropdownConteudo { display: flex; text-align: left; flex-direction: column; border-radius: var(--border-radius); }
 
 /* MENU MOBILE */
-.mobile-menu {position: fixed;top: 0;right: -300px; width: 300px;height: 100%;background-color: var(--fTema3); box-shadow: -1px 0 10px rgba(0, 0, 0, 0.1);  transition: right 0.3s ease; z-index: 66;}
+.mobile-menu {position: fixed;top: 0;right: -300px; width: 300px;height: 100%;background-color: var(--fTema); box-shadow: -1px 0 10px rgba(0, 0, 0, 0.1);  transition: right 0.3s ease; z-index: 66;}
 .menuMobileContainer{position: sticky; top:0; width: 100%; background-color: #fff; z-index: 444; border-bottom: 1px solid rgba(0, 0, 0, 0.1); display: none;}
 .logoMenu { object-fit: contain; height: 55px; }
 .mobile-menu-close { position: absolute;  top: 10px;  right: 250px;  cursor: pointer; padding: 10px 10px;  color: #F3F2F7; border-right:2px solid #3D3A41 ;}
